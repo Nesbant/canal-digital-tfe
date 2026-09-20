@@ -2,11 +2,16 @@
 
 Si el schema cambia en Notion, este archivo se actualiza primero; los skills lo leen antes de escribir o leer nada.
 
-## ⚠️ Estado: Digital Log y Experimentos normalizado NO EXISTEN todavía
+## ✅ Estado: Digital Log creada y Experimentos normalizado (2026-09-20)
 
-Los skills de este toolkit (`registro`, `experimentacion`, `knowledge-search`, `revision-semanal`) asumen las bases de abajo marcadas como "objetivo". **Ninguna se creó/modificó en Notion todavía** — ver `docs/fase-1-estado-actual-notion.md` para el plan pendiente de aprobación. Hasta que se apruebe y ejecute, estos skills no tienen dónde escribir.
+Ambos cambios ya se ejecutaron en Notion, de forma aditiva (no se tocó ningún dato existente). Los skills `registro`, `experimentacion`, `knowledge-search` y `revision-semanal` ya pueden operar.
 
-## Digital Log (objetivo — Fase 1.2, no creada)
+## Digital Log (creada — Fase 1.2)
+
+- URL: https://app.notion.com/p/58a9d8fd6f8047c6b9b04e70239a1406
+- Data source: `collection://2771132d-97bf-45eb-968d-300102270aa2`
+- Ubicación: bajo "Go-To-Market Canal Digital TFE", junto a "Bitacora de Experimentos".
+- Relation "Relacionado con" ↔ "Bitacora de Experimentos" (dos vías; del lado de Experimentos aparece como propiedad "Digital Log").
 
 | Campo | Tipo | Notas |
 |---|---|---|
@@ -20,13 +25,13 @@ Los skills de este toolkit (`registro`, `experimentacion`, `knowledge-search`, `
 | Evidencia | url / files | — |
 | Incluir en retro | checkbox | — |
 
-## Experimentos (objetivo normalizado — Fase 1.5, base real: "Bitacora de Experimentos")
+## Experimentos (normalizada — Fase 1.5, base real: "Bitacora de Experimentos")
 
-Base real hoy: https://app.notion.com/p/3524df488cbc80549113e5caf4afa6a1 (`collection://3524df48-8cbc-81ff-a6c5-000b8f0be2a0`), bajo "Go-To-Market Canal Digital TFE".
+URL: https://app.notion.com/p/3524df488cbc80549113e5caf4afa6a1 (`collection://3524df48-8cbc-81ff-a6c5-000b8f0be2a0`), bajo "Go-To-Market Canal Digital TFE".
 
-Campos actuales: Nombre (title), Negocio (select: Tren/TFE), Paso (select: Paso 0-6, Contac center), Estado (status: Idea/Desarrollo/Producción/Testing/Pausado/Done), Fecha Inicio (date), ABT/Diseño/Ticket (url), Puntaje (formula).
+Campos originales (intactos): Nombre (title), Negocio (select: Tren/TFE), Paso (select: Paso 0-6, Contac center), Estado (status: Idea/Desarrollo/Producción/Testing/Pausado/Done), Fecha Inicio (date), ABT/Diseño/Ticket (url), Puntaje (formula).
 
-Campos a **agregar** (no se toca lo existente):
+Campos **agregados** el 2026-09-20 (aditivo, cero filas existentes modificadas):
 
 | Campo | Tipo |
 |---|---|
@@ -36,9 +41,9 @@ Campos a **agregar** (no se toca lo existente):
 | URL variación / redirect | url |
 | Fecha fin | date |
 | Resultado | text |
-| Decisión | select |
+| Decisión | select (Escalar / Iterar / Descartar / Pendiente) |
 | Aprendizaje | text |
-| Digital Log | relation |
+| Digital Log | relation (auto-creada por el two-way relation desde Digital Log) |
 
 ## Bitácora Ecommerce TFE (base real, en uso — NO es el objetivo de este toolkit)
 

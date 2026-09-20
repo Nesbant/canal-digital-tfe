@@ -53,4 +53,6 @@ Inspección real vía Notion MCP, sin eliminar ni renombrar nada. Cubre lo pedid
 
 ## Gate
 
-**No se ejecuta ningún cambio en Notion (crear Digital Log, agregar campos a Experimentos) hasta que este plan sea aprobado explícitamente.**
+~~No se ejecuta ningún cambio en Notion (crear Digital Log, agregar campos a Experimentos) hasta que este plan sea aprobado explícitamente.~~
+
+**Aprobado y ejecutado el 2026-09-20.** Digital Log creada (https://app.notion.com/p/58a9d8fd6f8047c6b9b04e70239a1406) y "Bitacora de Experimentos" normalizada de forma aditiva — cero datos existentes tocados. Ver `references/notion-schema.md` para el detalle final.

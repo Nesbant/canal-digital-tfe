@@ -1,8 +1,5 @@
 # Registro (Digital Log)
 
-## ⚠️ Precondición
-La base "Digital Log" todavía no existe en Notion (ver `references/notion-schema.md` y `docs/fase-1-estado-actual-notion.md`). No usar este skill para escribir hasta que esa base exista y el plan esté aprobado.
-
 ## Objetivo
 Convertir una nota corta en lenguaje natural en un registro del Digital Log, sin pedirle a la persona que llene todos los campos a mano.
 

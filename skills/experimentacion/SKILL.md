@@ -1,8 +1,5 @@
 # Experimentación
 
-## ⚠️ Precondición
-La normalización de "Bitacora de Experimentos" (agregar Hipótesis, ID VWO, URLs, Resultado, Decisión, Aprendizaje, relation a Digital Log) todavía no se ejecutó. Ver `docs/fase-1-estado-actual-notion.md`. No usar los modos `crear`/`actualizar`/`cerrar` hasta que esos campos existan.
-
 ## Objetivo
 Mantener la bitácora de experimentos trazable de punta a punta: hipótesis → resultado → decisión → aprendizaje.
 
