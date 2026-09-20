@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+.env
+node_modules/
+automation/playwright/node_modules/
+automation/playwright/test-results/
+automation/playwright/playwright-report/
