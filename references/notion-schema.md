@@ -51,6 +51,21 @@ Base de uso exclusivo del equipo (no confundir con "Bitácora Ecommerce", que es
 
 Sigue viva y en uso — el roadmap no pide migrarla ni eliminarla. La retro de prueba generada el 2026-09-19 (https://app.notion.com/p/3e04df488cbc8139a38fc48457b5c20e) se hizo sobre esta base, antes de que existiera este toolkit formal; queda como piloto de formato, no como parte del pipeline definitivo.
 
+## Aprendizajes (creada — Fase 1.7)
+
+- URL: https://app.notion.com/p/de75f35d6ce644b0b0a1cd78d42bfc77
+- Data source: `collection://b5da647a-7d02-4116-9f99-4534d982b0f5`
+- Campos: Aprendizaje (title), Descripción (text), Experimento origen (relation → Experimentos), Digital Log (relation → Digital Log), Producto (multi-select: FDM/Actividad/Paquete/Bundle/All Inclusive/Tours/Otro — lista inicial, ajustable), Funnel (multi-select: P1-P6/Contact Center), Tipo (select: Proceso/Producto/QA/Pricing/UX/Técnico/Otro), Fecha (date), Evidencia (url), Estado (select: Propuesto/Activo/Descartado).
+- Vistas: "Por tipo" (board), "Potencial QA" (filtro Tipo=QA). Falta "Por producto" (Producto es multi-select, no admite board por ahora — filtrar manualmente en Notion si hace falta).
+
+## Retrospectivas (creada — Fase 1.9)
+
+- URL: https://app.notion.com/p/6799344710404d998b1ce4c0aab7fc25
+- Data source: `collection://09f8ca92-4cbd-4448-b8e5-5af6de9d8117`
+- Campos: Nombre (title), Desde/Hasta (date), Tipo (select: Semanal/Mensual), Estado (select: Borrador/Revisada/Presentada), relations a Digital Log, Experimentos y Aprendizajes, Fecha generación/aprobación (date).
+- El contenido de la retro (✅❌🎯🚀) va en el cuerpo de la página, no en propiedades — ver `references/retrospectiva.md`.
+- Vista: "Por estado" (board).
+
 ## Boundary duro (aplica a todos los skills de este toolkit)
 
 - Nunca escribir en **"Bitácora Ecommerce"** (org-wide) ni en **"Bitácora Retail"**.

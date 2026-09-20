@@ -4,12 +4,15 @@
 Generar una retrospectiva a partir de lo que realmente está registrado — no de memoria ni de suposiciones. Ver `references/retrospectiva.md` para el formato y las reglas anti-invento.
 
 ## Fuentes a consultar
-1. Digital Log (cuando exista)
+1. Digital Log
 2. Experimentos modificados en el período
-3. Aprendizajes (cuando exista)
-4. Retro anterior (para no repetir ni perder continuidad)
+3. Aprendizajes
+4. Retro anterior en la base "Retrospectivas" (para no repetir ni perder continuidad)
 
-Mientras Digital Log/Aprendizajes no existan, generar la retro solo con Experimentos + lo que haya en Bitácora Ecommerce TFE, y decir explícitamente qué fuentes faltaron.
+Si alguna fuente no tiene datos para el período, decirlo explícitamente en la retro en vez de omitirlo.
+
+## Al terminar
+Crear la página de retro como fila nueva en la base "Retrospectivas" (Estado = Borrador, Tipo = Semanal o Mensual, Desde/Hasta = período cubierto, relacionada con los Digital Log/Experimentos/Aprendizajes relevantes), no como página suelta.
 
 ## Output esperado
 

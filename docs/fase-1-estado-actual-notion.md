@@ -23,8 +23,8 @@ Inspección real vía Notion MCP, sin eliminar ni renombrar nada. Cubre lo pedid
 |---|---|---|
 | Digital Log (Fase 1.2) | **No existe** | Ninguna base actual tiene los tipos genéricos (Release, Decisión, Hallazgo, Certificación, TI, CRM, Proceso, Otro) — todo lo que existe está acotado a A/B Test/Bug/Incidencia/Despliegue |
 | Experimentos normalizado (Fase 1.5) | Parcial | "Bitacora de Experimentos" es la base correcta a normalizar (no Bitácora Ecommerce TFE). Faltan: Hipótesis, ID VWO, URL origen, URL variación, Resultado, Decisión, Aprendizaje, relation a Digital Log |
-| Aprendizajes (Fase 1.7) | No existe | — |
-| Retrospectivas (Fase 1.9) | No existe como base/página estructurada | Hay una retro de prueba (borrador, página suelta) creada ayer sobre datos de Bitácora Ecommerce TFE — sirve como piloto de formato, no como la base definitiva |
+| Aprendizajes (Fase 1.7) | ✅ Creada 2026-09-20 | https://app.notion.com/p/de75f35d6ce644b0b0a1cd78d42bfc77 |
+| Retrospectivas (Fase 1.9) | ✅ Creada 2026-09-20 | https://app.notion.com/p/6799344710404d998b1ce4c0aab7fc25. La retro de prueba de antes del roadmap sigue existiendo como página suelta, no migrada — fue solo el piloto de formato. |
 | Reglas QA / Certificaciones (Fase 2) | Certificaciones existe pero sin acceso; Reglas QA no existe | Fuera de alcance de Fase 1 |
 
 ## Restricciones de acceso vigentes
@@ -55,4 +55,12 @@ Inspección real vía Notion MCP, sin eliminar ni renombrar nada. Cubre lo pedid
 
 ~~No se ejecuta ningún cambio en Notion (crear Digital Log, agregar campos a Experimentos) hasta que este plan sea aprobado explícitamente.~~
 
-**Aprobado y ejecutado el 2026-09-20.** Digital Log creada (https://app.notion.com/p/58a9d8fd6f8047c6b9b04e70239a1406) y "Bitacora de Experimentos" normalizada de forma aditiva — cero datos existentes tocados. Ver `references/notion-schema.md` para el detalle final.
+**Aprobado y ejecutado el 2026-09-20.** Digital Log, Aprendizajes y Retrospectivas creadas; "Bitacora de Experimentos" normalizada de forma aditiva — cero datos existentes tocados. Ver `references/notion-schema.md` para el detalle final.
+
+## Pendiente honesto (no resuelto con esta ejecución)
+
+- **Ningún dato real se cargó todavía.** Las 4 bases (Digital Log, Experimentos normalizado, Aprendizajes, Retrospectivas) están vacías o sin las columnas nuevas completadas. La estructura está lista; el uso real no empezó.
+- **Plantilla de evento en Digital Log**: no se pudo crear vía API (los templates de página en Notion se arman desde la UI, no hay tool de creación de templates disponible). Queda pendiente crearla a mano en Notion — el contenido sugerido está en `references/digital-log-policy.md`.
+- Vista "Por producto" en Aprendizajes no se creó como board porque Producto es multi-select (Notion no arma boards sobre multi-select) — filtrar manualmente por ahora.
+- Fase 1.12 (capacitación) y 1.13 (métricas) — no iniciadas, requieren al equipo, no a Claude.
+- Gates de Fase 0.1/0.2 (Juan, permisos) — siguen sin resolver, fuera del alcance de Claude.
