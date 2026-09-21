@@ -55,7 +55,7 @@ Sigue viva y en uso — el roadmap no pide migrarla ni eliminarla. La retro de p
 
 - URL: https://app.notion.com/p/de75f35d6ce644b0b0a1cd78d42bfc77
 - Data source: `collection://b5da647a-7d02-4116-9f99-4534d982b0f5`
-- Campos: Aprendizaje (title), Descripción (text), Experimento origen (relation → Experimentos), Digital Log (relation → Digital Log), Producto (multi-select: FDM/Actividad/Paquete/Bundle/All Inclusive/Tours/Otro — lista inicial, ajustable), Funnel (multi-select: P1-P6/Contact Center), Tipo (select: Proceso/Producto/QA/Pricing/UX/Técnico/Otro), Fecha (date), Evidencia (url), Estado (select: Propuesto/Activo/Descartado).
+- Campos: Aprendizaje (title), Descripción (text), Experimento origen (relation → Experimentos), Digital Log (relation → Digital Log), Producto (multi-select: FDM/Actividad/Paquete/Bundle/All Inclusive/Tours/Otro — lista inicial, ver `references/productos-tfe.md`), Funnel (multi-select: Paso 0-6/Contac center — alineado con el campo "Paso" del resto de las bases, ver `references/funnel-tfe.md`), Tipo (select: Proceso/Producto/QA/Pricing/UX/Técnico/Otro), Fecha (date), Evidencia (url), Estado (select: Propuesto/Activo/Descartado).
 - Vistas: "Por tipo" (board), "Potencial QA" (filtro Tipo=QA). Falta "Por producto" (Producto es multi-select, no admite board por ahora — filtrar manualmente en Notion si hace falta).
 
 ## Retrospectivas (creada — Fase 1.9)
