@@ -11,9 +11,11 @@ Este repo sigue el roadmap en `docs/roadmap.md`. **Fuente de verdad de fases y a
 
 ## Instalación (equipo)
 
-1. `/plugin marketplace add Nesbant/canal-digital-tfe`
-2. `/plugin install tfe-ai-toolkit@canal-digital`
-3. Conectar el MCP de Notion con tu propia cuenta (una vez, por persona — el plugin no lo hace por vos).
+1. `claude mcp add --transport http notion https://mcp.notion.com/mcp` (una vez por persona/máquina, fuera de Claude Code)
+2. Dentro de Claude Code: `/mcp` → elegir `notion` → **Authenticate** → aprobar en el navegador con tu propia cuenta
+3. `/plugin marketplace add Nesbant/canal-digital-tfe`
+4. `/plugin install tfe@canal-digital`
+5. Los comandos quedan disponibles como `/tfe:registrar`, `/tfe:experimento`, `/tfe:buscar`, `/tfe:semana`. Si no aparecen, correr `/reload-plugins`.
 
 ## Estructura
 

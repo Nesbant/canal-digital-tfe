@@ -1,5 +1,5 @@
 {
-  "name": "tfe-ai-toolkit",
+  "name": "tfe",
   "description": "Memoria operativa, trazabilidad de experimentos y conocimiento reutilizable para el equipo de Canal Digital TFE, vía el MCP oficial de Notion. Fase 1 (Team Memory) del roadmap en docs/roadmap.md.",
   "version": "0.1.0",
   "author": {
