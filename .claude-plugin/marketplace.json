@@ -1,0 +1,14 @@
+{
+  "name": "canal-digital",
+  "description": "Plugins internos del equipo de Canal Digital TFE para trabajar con Notion vía Claude Code.",
+  "owner": {
+    "name": "Canal Digital TFE"
+  },
+  "plugins": [
+    {
+      "name": "tfe-ai-toolkit",
+      "source": ".",
+      "description": "Memoria operativa, trazabilidad de experimentos y conocimiento reutilizable para el equipo de Canal Digital TFE, vía el MCP oficial de Notion."
+    }
+  ]
+}

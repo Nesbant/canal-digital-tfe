@@ -9,6 +9,12 @@ Este repo sigue el roadmap en `docs/roadmap.md`. **Fuente de verdad de fases y a
 - **Fase 0 (Preparación):** en curso — estructura técnica creada; gates organizacionales (alcance validado con Juan, definición de permisos/ownership) **pendientes**, no resueltos por Claude.
 - **Fase 1 (Team Memory):** en diseño — ver `docs/fase-1-estado-actual-notion.md` para el estado real de Notion y el plan propuesto. **Ningún cambio se ejecutó todavía en Notion** para esta fase; falta aprobación explícita.
 
+## Instalación (equipo)
+
+1. `/plugin marketplace add Nesbant/canal-digital-tfe`
+2. `/plugin install tfe-ai-toolkit@canal-digital`
+3. Conectar el MCP de Notion con tu propia cuenta (una vez, por persona — el plugin no lo hace por vos).
+
 ## Estructura
 
 ```text
