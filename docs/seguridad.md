@@ -15,8 +15,13 @@
 - Nunca registrar datos personales de pasajeros (nombres, documentos, contacto) en Digital Log, Experimentos, Aprendizajes o Retrospectivas — estas bases son para eventos y conocimiento operativo, no para PII.
 - Ningún cambio destructivo (borrar propiedades, borrar filas, trashear data sources) sin pedir confirmación explícita en el momento — todo lo ejecutado hasta ahora fue aditivo.
 
+## Confirmado técnicamente (2026-09-21)
+
+- [x] Conexión con Notion MCP disponible y funcionando — usada extensivamente (creación de bases, lectura de filas, actualización de schema) sin fallos de acceso salvo el caso ya documentado de Certificaciones Ecommerce.
+- [x] `/tfe:buscar` probado con una consulta real ("bundles") — ver `changelog/2026-09-21-buscar-real.md`.
+
 ## Pendiente de definir (Fase 0.2 — no resuelto por Claude)
 
-- [ ] Confirmar acceso del equipo (personas, no solo la integración) a Claude.
+- [ ] Confirmar acceso del equipo (las personas, no solo la integración) a Claude.
 - [ ] Validar permisos de lectura/escritura del Teamspace a nivel de personas/roles.
 - [ ] Lista concreta y exhaustiva de qué datos nunca deben registrarse (más allá de la regla general de arriba).
