@@ -45,6 +45,8 @@ Campos **agregados** el 2026-09-20 (aditivo, cero filas existentes modificadas):
 | Aprendizaje | text |
 | Digital Log | relation (auto-creada por el two-way relation desde Digital Log) |
 
+Vistas: "Por estado" (board), "Sin aprendizaje", "Sin resultado", "Activos" (⚠️ solo filtra Estado=Testing — el DSL de creación de vistas no admitió combinar Idea+Desarrollo+Testing+Producción en un único filtro), "Finalizados" (⚠️ solo filtra Estado=Done — falta Pausado por la misma limitación). Ajustar el filtro a mano en Notion si hace falta cubrir el resto de los estados.
+
 ## Bitácora Ecommerce TFE (base real, en uso — NO es el objetivo de este toolkit)
 
 Base de uso exclusivo del equipo (no confundir con "Bitácora Ecommerce", que es de toda la organización). URL: https://app.notion.com/p/3cf4df488cbc807bbc23dbae572a70d5 (`collection://f3b4df48-8cbc-8205-9c8f-879320f32419`).
